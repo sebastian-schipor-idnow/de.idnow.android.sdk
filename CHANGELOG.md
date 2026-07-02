@@ -1,5 +1,13 @@
 ## Changelog
 
+#### 5.20.0 - 02 Jul 2026
+- Fixed an issue where security-feature video frames could appear distorted, leading to incorrect fraud classifications and reduced conversion rates.
+- Resolved a crash that could occur during the additional document step on certain integrations.
+- Fixed a TensorFlow-related native crash affecting some devices during the identification flow.
+- Fixed a brief front-camera flash appearing after the QES signing step.
+- Resolved a crash in the bank transfer flow on French-language devices.
+- Updated Unissey SDK to 5.0.2 with a ProGuard compatibility fix.
+
 #### 5.19.0 - 16 Apr 2026
 - Updated Liveness components
 - Fix for white screens on User Abort screen
